@@ -1,3 +1,9 @@
-Config.json file hidden for use.
+# Introduction
+*  Start the program using `node .`
+*  Rename the template.json file into hidden.json and replace it with the token to access your own discord bot account.
+*  The program will log to the console once you are able to successfully log in.
 
-Create your own personal config.json file including: prefix, token, and colors
+# Notes
+* This is a fully functional bot able to play Youtube videos.
+* Command list and functionality can be seen with the command 'help'.
+    * All commands are separated into files in the commands folder.

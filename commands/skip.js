@@ -8,8 +8,8 @@ module.exports = {
 	description: 'Skips the currently playing track',
 	async execute(message, args, servers) {
 		var server = func.getServer(message, servers);
-				
-        if(server && server.queue.length > 0) {
+
+		if(server && server.queue.length > 0) {
 			if(server.dispatcher) server.dispatcher.end();
 			return func.sendMessage(`Skipping song`, message.channel, green);
 		}
