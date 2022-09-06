@@ -64,7 +64,8 @@ function queued(message, args, server, song) {
     value: `[${song.info.videoDetails.title}](${song.url})`,
   });
 
-  return message.channel.send(embed).then((msg) => {
-    msg.delete({ timeout: 5000 });
-  });
+  return message.channel.send(embed);
+  // .then((msg) => {
+  //   msg.delete({ timeout: 5000 });
+  // });
 }

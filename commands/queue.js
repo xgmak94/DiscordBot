@@ -34,7 +34,8 @@ function displayQueue(message, args, server) {
       value: `[${song.info.videoDetails.title}](${song.url})`,
     });
   }
-  message.channel.send(embed).then((msg) => {
-    msg.delete({ timeout: 10000 });
-  });
+  message.channel.send(embed);
+  // .then((msg) => {
+  //   msg.delete({ timeout: 10000 });
+  // });
 }
