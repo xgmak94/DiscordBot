@@ -5,8 +5,9 @@
 
 # Description
 
-![Example](https://github.com/xgmak94/assets/Overview.jpg)
-# Notes
+<img width="720" alt="Overview" src="./assets/Overview.jpg">
+
+## Notes
 * This is a fully functional bot able to play Youtube videos.
 * Command list and functionality can be seen with the command 'help'.
     * All commands are separated into files in the commands folder.
