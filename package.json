@@ -13,6 +13,7 @@
     "@discordjs/opus": "github:discordjs/opus",
     "axios": "^0.27.2",
     "discord.js": "^12.5.1",
+    "dotenv": "^16.0.3",
     "ffmpeg-static": "^4.2.7",
     "node-sass": "^6.0.1",
     "yt-search": "^2.10.3",

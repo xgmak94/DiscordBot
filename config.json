@@ -1,7 +1,7 @@
 {
     "prefix": "!",
     "green": "39F70F",
-    "yellow": "F7EC0F",
+    "yellow": "FFFF00",
     "red": "F70F0F",
     "yugiohURL": "https://db.ygoprodeck.com/api/v7/cardinfo.php"
 }

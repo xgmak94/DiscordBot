@@ -1,6 +1,6 @@
+require('dotenv').config();
 const fs = require("fs");
 const Discord = require("discord.js");
-const { token } = require("./hidden.json");
 const { prefix, cd, red } = require("./config.json");
 const func = require(`./commands/functions.js`);
 
@@ -12,7 +12,7 @@ clientConnectionListeners(client);
 setClientCommands(client);
 setClientListeners(client);
 
-client.login(token);
+client.login(process.env.token);
 
 // Listeners specifically for checking if our client is connected and with what username
 function clientConnectionListeners(client) {
